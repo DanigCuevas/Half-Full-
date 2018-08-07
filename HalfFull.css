@@ -1,0 +1,19 @@
+.Quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.centerImage{
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+}
