@@ -76,6 +76,8 @@ h2{
     position: fixed
     top: 0;
     width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .navbar a {
