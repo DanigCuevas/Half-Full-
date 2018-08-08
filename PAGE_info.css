@@ -26,10 +26,17 @@ p{
   font-size: 24px;
 }
 
-/* HEADING - CLASS */
+/* HEADING #1 - CLASS */
 /* --------------------------------------------------------------------------*/
 h1{
   text-align: center;
   font-size: 60px;
   font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADING #2 - CLASS */
+/* --------------------------------------------------------------------------*/
+h2{
+  text-align: auto;
+  font-size: 24px;
 }
