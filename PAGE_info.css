@@ -1,3 +1,6 @@
+body {
+background-color: #B0E0E6;
+}
 /* MAIN FONT - CLASS */
 /* --------------------------------------------------------------------------*/
 .Quicksand {
@@ -15,8 +18,8 @@
 .centerImage{
   display: block;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 }
 
 /* TEXT - CLASS */
@@ -39,4 +42,11 @@ h1{
 h2{
   text-align: auto;
   font-size: 24px;
+}
+
+/* BOTTOM LINE - CLASS */
+/* --------------------------------------------------------------------------*/
+.bottomLine {
+  border-bottom-style: dotted;
+  padding-bottom: 20px;
 }
