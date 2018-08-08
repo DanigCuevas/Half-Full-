@@ -60,6 +60,7 @@ button {
   margin-top: 45px;
   transition-duration: 0.4s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 button:hover {
@@ -96,4 +97,8 @@ h2{
   display: block;
   width: 70px;
   height: 70px;
+}
+
+a{
+  text-decoration: none;
 }
