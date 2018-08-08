@@ -15,6 +15,7 @@
 
 p{
   font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
 }
 
 h1{
@@ -26,6 +27,7 @@ h1{
 .description {
   font-family: 'Quicksand', sans-serif;
 }
+
 button {
   text-align: center;
   align: center;
@@ -34,4 +36,6 @@ button {
   border: none;
   font-size: 20px;
   padding: 15px 32px;
+  display: block;
+  margin: auto;
 }
