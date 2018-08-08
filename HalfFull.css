@@ -17,3 +17,9 @@ h1{
   text-align: center;
   font-size: 60px;
 }
+
+button {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+}
