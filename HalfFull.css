@@ -13,6 +13,10 @@
   height: 500px;
 }
 
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
 h1{
   text-align: center;
   font-size: 60px;
