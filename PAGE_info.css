@@ -1,0 +1,35 @@
+/* MAIN FONT - CLASS */
+/* --------------------------------------------------------------------------*/
+.Quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* MAIN FONT - CLASS */
+/* --------------------------------------------------------------------------*/
+.centerText{
+  text-align: center;
+}
+
+/* CENTER IMAGE - CLASS */
+/* --------------------------------------------------------------------------*/
+.centerImage{
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
+
+/* TEXT - CLASS */
+/* --------------------------------------------------------------------------*/
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+
+/* HEADING - CLASS */
+/* --------------------------------------------------------------------------*/
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+}
