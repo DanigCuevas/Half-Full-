@@ -15,6 +15,7 @@
 
 p{
   font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
 }
 
 h1{
@@ -32,6 +33,10 @@ button {
   font-family: 'Quicksand', sans-serif;
   background-color: #ADD8E6;
   border: none;
-  font-size: 20px;
-  padding: 15px 32px;
+  font-size: 30px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+
 }
