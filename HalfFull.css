@@ -93,7 +93,7 @@ h2{
 
 .navbar a {
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     display: block;
     color: #f2f2f2;
@@ -105,8 +105,8 @@ h2{
 .NavLogo{
   float: right;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 a{
