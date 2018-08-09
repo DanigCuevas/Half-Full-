@@ -23,8 +23,8 @@ body {
 .smaller_centerImage {
   display: block;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 140px;
+  height: 140px;
 }
 
 .icons{
@@ -150,6 +150,7 @@ a{
     cursor: pointer;
     width: 170px;
     display: block;
+    display:
 }
 
 .btn-group .button:not(:last-child) {
@@ -160,6 +161,7 @@ a{
     background-color: #F0F8FF;
     color: black;
 }
+
 /* ----------------------------------------------------------------*/
 /* BUTTON COLORS - CLASS */
 /* -----------------------------------------------------------------*/
@@ -307,3 +309,5 @@ a{
   color: black;
   width: 170px;
 }
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
