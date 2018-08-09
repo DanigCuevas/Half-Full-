@@ -65,7 +65,7 @@ button {
   padding: 17px 50px;
   display: block;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 18px;
   transition-duration: 0.4s;
   cursor: pointer;
   text-decoration: none;
@@ -73,10 +73,12 @@ button {
 
 button:hover {
   background-color: #F0F8FF;
+  color: black;
 }
 
 h2{
   font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
 }
 
 .navbar {
@@ -129,4 +131,177 @@ a{
 
 .small_button:hover {
   background-color: #F0F8FF;
+}
+
+/*-----------------------------------------------------------------*/
+/* SURVEY BUTTON -- CLASS */
+/* ----------------------------------------------------------------*/
+.btn-group .button {
+    background-color: #4682B4;
+  /*  border: 1px solid ; */
+    color: black;
+    padding: 11px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    width: 170px;
+    display: block;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group .button:hover {
+    background-color: #F0F8FF;
+    color: black;
+}
+/* ----------------------------------------------------------------*/
+/* BUTTON COLORS - CLASS */
+/* -----------------------------------------------------------------*/
+
+.button_red {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ff1a1a;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+}
+
+.button_orange {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ff571a;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+}
+
+.button_yellow {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffe033;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+}
+
+.button_green {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #7CFC00;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+}
+
+.button_blue {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #4169E1;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  width: 170px;
+}
+
+.button_purple {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #deaeea;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+}
+
+.button_black {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #2F4F4F;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  width: 170px;
+}
+
+.button_cream {
+  text-align: center;
+  align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FFF0F5;
+  border: none;
+  font-size: 10px;
+  padding: 17px 50px;
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 170px;
 }
