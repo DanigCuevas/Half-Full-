@@ -65,7 +65,7 @@ button {
   padding: 17px 50px;
   display: block;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 18px;
   transition-duration: 0.4s;
   cursor: pointer;
   text-decoration: none;
@@ -77,6 +77,7 @@ button:hover {
 
 h2{
   font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
 }
 
 .navbar {
@@ -130,3 +131,28 @@ a{
 .small_button:hover {
   background-color: #F0F8FF;
 }
+
+/* SURVEY BUTTON -- CLASS */
+/* ----------------------------------------------------------------*/
+.btn-group .button {
+    background-color: #4682B4;
+  /*  border: 1px solid ; */
+    color: black;
+    padding: 11px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    width: 170px;
+    display: block;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group .button:hover {
+    background-color: #F0F8FF;
+}
+/* ----------------------------------------------------------------*/
