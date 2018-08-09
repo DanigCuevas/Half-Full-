@@ -98,15 +98,15 @@ h2{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
 .NavLogo{
   float: right;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
 }
 
 a{
