@@ -32,13 +32,20 @@ body {
   border: 6px solid black;
   display: block;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
+}
+
+.playlist{
+  display: block;
+  margin: auto;
+  width: 200px;
+  length: 300px;
 }
 
 p{
   font-family: 'Quicksand', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 h1{
