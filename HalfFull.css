@@ -145,11 +145,11 @@ a{
 /*-----------------------------------------------------------------*/
 /* SURVEY BUTTON -- CLASS */
 /* ----------------------------------------------------------------*/
-.btn-group .button {
+.btn-group-vert .button {
     background-color: #4682B4;
-  /*  border: 1px solid ; */
     color: black;
     padding: 11px 18px;
+    margin-bottom: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -160,11 +160,31 @@ a{
     display:
 }
 
-.btn-group .button:not(:last-child) {
+.btn-group-vert .button:not(:last-child) {
     border-bottom: none;
 }
 
-.btn-group .button:hover {
+.btn-group-vert .button:hover {
+    background-color: #F0F8FF;
+    color: black;
+}
+
+.btn-group-horiz .button {
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    float: left;
+    margin-right: 5px;
+}
+
+.btn-group-horiz .button:hover {
     background-color: #F0F8FF;
     color: black;
 }
@@ -172,6 +192,19 @@ a{
 /* ----------------------------------------------------------------*/
 /* BUTTON COLORS - CLASS */
 /* -----------------------------------------------------------------*/
+.row {
+  width: 40%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.column {
+  /*width: 24%;*/
+  text-align: center;
+  float: center;
+  display: inline-block;
+}
 
 .button_red {
   text-align: center;
@@ -188,7 +221,8 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
+  width: 25px;
+
 }
 
 .button_orange {
@@ -206,7 +240,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
+  width: 25px;
 }
 
 .button_yellow {
@@ -224,7 +258,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
+  width: 25px;
 }
 
 .button_green {
@@ -242,7 +276,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
+  width: 25px;
 }
 
 .button_blue {
@@ -260,7 +294,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: white;
-  width: 170px;
+  width: 25px;
 }
 
 .button_purple {
@@ -278,7 +312,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
+  width: 25px;
 }
 
 .button_black {
@@ -296,7 +330,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: white;
-  width: 170px;
+  width: 18px;
 }
 
 .button_cream {
@@ -314,7 +348,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: black;
-  width: 170px;
-}
+  width: 18px;
+}*/
 /* -------------------------------------------------------------------------*/
 /* -------------------------------------------------------------------------*/
