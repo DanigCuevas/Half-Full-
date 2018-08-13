@@ -60,17 +60,15 @@ button {
   text-align: center;
   align: center;
   font-family: 'Quicksand', sans-serif;
-  background-color: #4682B4;
   border: none;
-  margin-top: 50px;
-  font-size: 20px;
-  padding: 17px 38px;
+  font-size: 9px;
+  padding: 13px 10px;
   display: block;
   margin: auto;
   transition-duration: 0.4s;
   cursor: pointer;
-  color: white;
   text-decoration: none;
+  width: 50px;
 }
 
 button:hover {
@@ -186,162 +184,58 @@ a{
 /* BUTTON COLORS - CLASS */
 /* -----------------------------------------------------------------*/
 .row {
-  width: 40%;
+  width: 24%;
   display: block;
   text-align: center;
   margin: auto;
 }
 
 .column {
-  /*width: 24%;*/
   text-align: center;
+  margin-bottom: 12px;
   float: center;
   display: inline-block;
+  width: 13%;
 }
 
-.button_red {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.red {
   background-color: #ff1a1a;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 25px;
-
 }
 
-.button_orange {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.orange {
   background-color: #ff571a;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 25px;
 }
 
-.button_yellow {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.yellow {
   background-color: #ffe033;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 25px;
 }
 
-.button_green {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.green {
   background-color: #7CFC00;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 25px;
 }
 
-.button_blue {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.blue {
   background-color: #4169E1;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: white;
-  width: 25px;
 }
 
-.button_purple {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.purple {
   background-color: #deaeea;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 25px;
 }
 
-.button_black {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.black {
   background-color: #2F4F4F;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: white;
-  width: 18px;
 }
 
-.button_cream {
-  text-align: center;
-  align: center;
-  font-family: 'Quicksand', sans-serif;
+.cream {
   background-color: #FFF0F5;
-  border: none;
-  font-size: 10px;
-  padding: 17px 50px;
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
   color: black;
-  width: 18px;
-}*/
+}
 /* -------------------------------------------------------------------------*/
 /* -------------------------------------------------------------------------*/
