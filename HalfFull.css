@@ -68,14 +68,14 @@ button {
   align: center;
   font-family: 'Quicksand', sans-serif;
   border: none;
-  font-size: 9px;
+  font-size: 15px;
   padding: 13px 10px;
   display: block;
   margin: auto;
   transition-duration: 0.4s;
   cursor: pointer;
   text-decoration: none;
-  width: 50px;
+  width: 70px;
 }
 
 button:hover {
@@ -85,7 +85,7 @@ button:hover {
 
 h2{
   font-family: 'Quicksand', sans-serif;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .navbar {
@@ -145,15 +145,15 @@ a{
 /* ----------------------------------------------------------------*/
 .btn-group-vert .button {
     background-color: #4682B4;
-    color: black;
-    padding: 11px 18px;
+    color: white;
+    padding: 13px 20px;
     margin-bottom: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 9px;
+    font-size: 14px;
     cursor: pointer;
-    width: 170px;
+    width: 270px;
     display: block;
     display:
 }
@@ -191,7 +191,7 @@ a{
 /* BUTTON COLORS - CLASS */
 /* -----------------------------------------------------------------*/
 .row {
-  width: 24%;
+  width: 100%;
   display: block;
   text-align: center;
   margin: auto;
@@ -202,31 +202,31 @@ a{
   margin-bottom: 12px;
   float: center;
   display: inline-block;
-  width: 13%;
+  width: 20%;
 }
 
 .red {
-  background-color: #ff1a1a;
-  color: black;
+  background-color: #cc0000;
+  color: white;
 }
 
 .orange {
-  background-color: #ff571a;
+  background-color: #ff8533;
   color: black;
 }
 
 .yellow {
-  background-color: #ffe033;
+  background-color: #ffff1a;
   color: black;
 }
 
 .green {
-  background-color: #7CFC00;
+  background-color: #47d147;
   color: black;
 }
 
 .blue {
-  background-color: #4169E1;
+  background-color: #0066ff;
   color: white;
 }
 
@@ -247,7 +247,7 @@ a{
 
 .default {
   background-color: #4682B4;
-  color: black;
+  color: white;
 }
 /* -------------------------------------------------------------------------*/
 /* -------------------------------------------------------------------------*/
