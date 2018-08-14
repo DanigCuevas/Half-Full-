@@ -42,22 +42,25 @@ upset++;
 // onclick "submit" button
 function Results(){
   var link = document.getElementById("results link");
-  if (angry>calm && angry>happy && angry>motivated && angry>overwhelmed && angry>upset){
+  if ((angry>calm) && (angry>happy) && (angry>motivated) && (angry>overwhelmed) && (angry>upset)){
      link.setAttribute('href', "SUBPAGE_angryrecs.html");
   }
-  if (calm>angry && calm>happy && calm>motivated && calm>overwhelmed && calm>upset){
+  else if ((calm>angry) && (calm>happy) && (calm>motivated) && (calm>overwhelmed) && (calm>upset)){
     link.setAttribute('href', "SUBPAGE_calmrecs.html");
   }
-  if (happy>angry && happy>calm && happy>motivated && happy>overwhelmed && happy>upset){
+  else if ((happy>angry) && (happy>calm) && (happy>motivated) && (happy>overwhelmed) && (happy>upset)){
     link.setAttribute('href', "SUBPAGE_happyrecs.html");
   }
-  if (motivated>angry && motivated>calm && motivated>happy && motivated>overwhelmed && motivated>upset){
+  else if ((motivated>angry) && (motivated>calm) && (motivated>happy) && (motivated>overwhelmed) && (motivated>upset)){
     link.setAttribute('href', "SUBPAGE_motivatedrecs.html");
   }
-  if (overwhelmed>angry && overwhelmed>calm && overwhelmed>happy && overwhelmed>motivated && overwhelmed>upset){
+  else if ((overwhelmed>angry) && (overwhelmed>calm) && (overwhelmed>happy) && (overwhelmed>motivated) && (overwhelmed>upset)){
     link.setAttribute('href', "SUBPAGE_overwhelmedrecs.html");
   }
-  if (upset>angry && upset>calm && upset>happy && upset>motivated && upset>overwhelmed){
+  else if ((upset>angry) && (upset>calm) && (upset>happy) && (upset>motivated) && (upset>overwhelmed)){
     link.setAttribute('href', "SUBPAGE_upsetrecs.html");
+  }
+  else {
+    link.setAttribute('href', "PAGE_intro.html");
   }
 }
