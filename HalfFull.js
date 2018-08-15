@@ -65,12 +65,6 @@ function Results(){
   }
 }
 
-function ClickIcon() {
-  if (document.getElementById("tiptext").innerHTML != ""){
-    (document.getElementById("tiptext").innerHTML = "");
-  }
-  else{
-    document.getElementById("tiptext").innerHTML = `1. EXCERCISE: Physical activity is key in releasing your anger and tension. Go on a quick run, do some stretches or play outside for a bit. <br> 2. WAIT: Waiting for a bit and getting into the right headspace before expressing your anger can be extremely helpful. Calmly expressing your concerns is always better than saying something when you're not thinking clearly. <br> 3. 'I' STATEMENTS: Stick to using 'I' statements when you're expressing your frustration. This can help to avoid criticizing and placing blame, which will only create more tension.`;
-  }
-
+function ClickIcon(id) {
+  document.getElementById(id).style.display="block";
 }

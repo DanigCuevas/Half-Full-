@@ -20,6 +20,26 @@ body {
   margin-top: 95px;
 }
 
+#tips1, #tips2, #tips3, #tips4, #tips5, #tips6{
+  display: none;
+}
+
+#playlist1, #playlist2, #playlist3, #playlist4, #playlist5, #playlist6{
+  display: none;
+}
+
+#breathe1, #breathe2, #breathe3, #breathe4, #breathe5, #breathe6{
+  display: none;
+}
+
+#food1, #food2, #food3, #food4, #food5, #food6{
+  display: none;
+}
+
+#resource1, #resource2, #resource3, #resource4, #resource5, #resource6{
+  display: none;
+}
+
 .smaller_centerImage {
   display: block;
   margin: auto;

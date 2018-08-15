@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel = "stylesheet"; href = "HalfFull.css">
+<script src="HalfFull.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <body>
 
@@ -12,25 +13,27 @@
 <h1 class= "bottomLine"> Today's Recommendations </h1>
 <p class="centerText"> Based on your daily survey, you were feeling <b> ANGRY </b> today<br> Here are your recommendations: </p>
 
-<img src = "checkmark-flat.png" onclick = "ClickIcon()" class = "icons">
+<img src = "checkmark-flat.png" onclick = "ClickIcon('tips1')" class = "icons">
 <h2 class = "centerText"> Tips </h2>
-<p class = "centerText">1. EXCERCISE: Physical activity is key in releasing your anger and tension. Go on a quick run, do some stretches or play outside for a bit. <br> 2. WAIT: Waiting for a bit and getting into the right headspace before expressing your anger can be extremely helpful. Calmly expressing your concerns is always better than saying something when you're not thinking clearly. <br> 3. 'I' STATEMENTS: Stick to using 'I' statements when you're expressing your frustration. This can help to avoid criticizing and placing blame, which will only create more tension.`</p>
+<p id="tips1" class = "centerText">1. EXCERCISE: Physical activity is key in releasing your anger and tension. Go on a quick run, do some stretches or play outside for a bit. <br> 2. WAIT: Waiting for a bit and getting into the right headspace before expressing your anger can be extremely helpful. Calmly expressing your concerns is always better than saying something when you're not thinking clearly. <br> 3. 'I' STATEMENTS: Stick to using 'I' statements when you're expressing your frustration. This can help to avoid criticizing and placing blame, which will only create more tension.`</p>
 
-<img src = "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Spotify.png" class = "icons">
+<img src = "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Spotify.png" onclick = "ClickIcon('playlist1')" class = "icons">
 <h2 class = "centerText"> Your Playlist </h2>
-<iframe class = "playlist" src="https://open.spotify.com/embed?uri=spotify:user:gzkiq9wmmvbvhmlf4zcab8vez:playlist:2RoPTydjNrid0VngLi8EW5" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe id="playlist1" class = "playlist" src="https://open.spotify.com/embed?uri=spotify:user:gzkiq9wmmvbvhmlf4zcab8vez:playlist:2RoPTydjNrid0VngLi8EW5" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<img src = "HalfFull_lung3.jpg" class = "icons">
+<img src = "HalfFull_lung3.jpg" onclick = "ClickIcon('breathe1')" class = "icons">
 <h2 class = "centerText"> Breathing Excercises </h2>
-<p class = "centerText"> When you're angry, it's important to isolate yourself for a few minutes and focus on steady breathing. Breathe deeply about 3 to 4 times by inhaling for for about 4 seconds and then exhaling for about 8 seconds.</p>
+<p id="breathe1" class = "centerText"> When you're angry, it's important to isolate yourself for a few minutes and focus on steady breathing. Breathe deeply about 3 to 4 times by inhaling for for about 4 seconds and then exhaling for about 8 seconds.</p>
 
-<img src = "HalfFull_APPLE.jpg" class = "icons">
+<img src = "HalfFull_APPLE.jpg" onclick = "ClickIcon('food1')" class = "icons">
 <h2 class = "centerText"> Recommended Foods </h2>
-<p class = "centerText"> It's important to keep your blood sugar levels steady when you're angry. Some foods that are helpful for this are pumpkin seeds, blueberries, avocados, chia seeds, and cinammon </p>
+<p id="food1" class = "centerText"> It's important to keep your blood sugar levels steady when you're angry. Some foods that are helpful for this are pumpkin seeds, blueberries, avocados, chia seeds, and cinammon </p>
 
-<img src = "HalfFull_LIGHT.jpg" class = "icons">
+<img src = "HalfFull_LIGHT.jpg" onclick = "ClickIcon('resource1')" class = "icons">
 <h2 class = "centerText"> Resources </h2>
-<p class = "centerText"> Here's a resource you can use for more information about anger and anger management: <a href = "http://www.apa.org/topics/anger/control.aspx"> http://www.apa.org/topics/anger/control.aspx </a></p>
+<p id="resource1" class = "centerText"> Here's a resource you can use for more information about anger and anger management: <a href = "http://www.apa.org/topics/anger/control.aspx"> http://www.apa.org/topics/anger/control.aspx </a></p>
+
+
 
 </body>
 </html>
