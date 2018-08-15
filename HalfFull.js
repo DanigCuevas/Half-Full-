@@ -10,6 +10,10 @@ function ButtonClick(id){
   id.style.color = "black";
 }
 
+function OverwhelmedClick() {
+overwhelmed++;
+}
+
 function AngryClick() {
 angry++;
 }
@@ -26,10 +30,6 @@ function MotivatedClick() {
 motivated++;
 }
 
-function OverwhelmedClick() {
-overwhelmed++;
-}
-
 function UpsetClick() {
 upset++;
 }
@@ -42,25 +42,25 @@ upset++;
 // onclick "submit" button
 function Results(){
   var link = document.getElementById("results link");
-  if ((angry>calm) && (angry>happy) && (angry>motivated) && (angry>overwhelmed) && (angry>upset)){
-     link.setAttribute('href', "SUBPAGE_angryrecs.html");
+  if ((overwhelmed>angry) && (overwhelmed>calm) && (overwhelmed>happy) && (overwhelmed>motivated) && (overwhelmed>upset)){
+    window.location.href = 'SUBPAGE_overwhelmedrecs.html';
+  }
+  else if ((angry>calm) && (angry>happy) && (angry>motivated) && (angry>overwhelmed) && (angry>upset)){
+     window.location.href = 'SUBPAGE_angryrecs.html';
   }
   else if ((calm>angry) && (calm>happy) && (calm>motivated) && (calm>overwhelmed) && (calm>upset)){
-    link.setAttribute('href', "SUBPAGE_calmrecs.html");
+    window.location.href = 'SUBPAGE_calmrecs.html';
   }
   else if ((happy>angry) && (happy>calm) && (happy>motivated) && (happy>overwhelmed) && (happy>upset)){
-    link.setAttribute('href', "SUBPAGE_happyrecs.html");
+    window.location.href = 'SUBPAGE_happyrecs.html';
   }
   else if ((motivated>angry) && (motivated>calm) && (motivated>happy) && (motivated>overwhelmed) && (motivated>upset)){
-    link.setAttribute('href', "SUBPAGE_motivatedrecs.html");
-  }
-  else if ((overwhelmed>angry) && (overwhelmed>calm) && (overwhelmed>happy) && (overwhelmed>motivated) && (overwhelmed>upset)){
-    link.setAttribute('href', "SUBPAGE_overwhelmedrecs.html");
+    window.location.href = 'SUBPAGE_motivatedrecs.html';
   }
   else if ((upset>angry) && (upset>calm) && (upset>happy) && (upset>motivated) && (upset>overwhelmed)){
-    link.setAttribute('href', "SUBPAGE_upsetrecs.html");
+    window.location.href = 'SUBPAGE_upsetrecs.html';
   }
-  else {
-    link.setAttribute('href', "PAGE_intro.html");
+  else{
+    window.location.href = 'SUBPAGE_overwhelmedrecs.html';
   }
 }
