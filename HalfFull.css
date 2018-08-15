@@ -27,6 +27,23 @@ body {
   height: 155px;
 }
 
+.smaller_sideImage {
+  display: inline-block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-left: 800px;
+}
+
+h3 {
+  text-align: center;
+  float: right;
+  margin-top: 40px;
+  margin-right: 800px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
 .icons{
   border-radius: 50%;
   border: 6px solid black;
