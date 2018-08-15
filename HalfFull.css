@@ -55,11 +55,27 @@ body {
   margin-left: 800px;
 }
 
+.side_number {
+  display: inline-block;
+  margin: auto;
+  margin-left: 800px;
+  text-align: center;
+}
+
 h3 {
   text-align: center;
   float: right;
   margin-top: 40px;
-  margin-right: 800px;
+  margin-right: 815px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+h4 {
+  text-align: center;
+  float: right;
+  margin-top: 10px;
+  margin-right: 810px;
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 }
